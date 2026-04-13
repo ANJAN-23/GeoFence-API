@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt'
-import Student from '../models/students.models.js'
+import Student from '../../models/students.models.js'
 const login =async(req,res)=>{
  try{
     const {student_id,password}=req.body;

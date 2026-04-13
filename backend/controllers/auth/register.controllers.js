@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt'
-import Student from '../models/students.models.js'
+import Student from '../../models/students.models.js'
 const register=async (req,res)=>
 {
     try{
